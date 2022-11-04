@@ -1,0 +1,19 @@
+.navbar {
+    background-color: none;
+    
+    }
+    
+    .nav-link {
+        color: black;
+        background-color: grey;
+    }
+    
+    .nav-link:hover {
+        color: $color-activo;
+        
+    }
+    
+    .nav-link:focus {
+        color: $color-texto;
+        
+    }
