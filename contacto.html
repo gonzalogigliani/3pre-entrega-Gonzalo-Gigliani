@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <head>
-            <title>DTTA contacto</title>
+            <title>DTTA Contacto</title>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Productora Musical y Audiovisual">
@@ -21,17 +20,22 @@
           </head>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm">
-    
+      <div class="nav-link">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <a class="navbar-brand" href="#">DTTA Records</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
+              <li class="nav-item ">
+                <a class="nav-link" class="active" href="index.html">HOME <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="galeria.html">GALERIA</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              <li class="nav-item active">
+                <a class="nav-link" class="active" href="contacto.html">CONTACTO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="informacion.html">INFORMACION</a>
@@ -39,32 +43,42 @@
               <li class="nav-item">
                 <a class="nav-link" href="proyectos.html">PROYECTOS</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">EVENTOS</a>
+              </li>
             </ul>
-          
-          </nav>
+          </div>
+        </nav>
+      </div>
     
          
           <div id="textbox-comentarios" class="container">
             <h2>ENVIANOS TU CONSULTA</h2>
             
             <form action="/action_page.php">
-              <div class="form-group">
+              <div class="form-group mb-5">
                 <label for="comment"></label>
                 <textarea class="form-control" rows="12" id="comment" name="text"></textarea>
               </div>
               <div class="btn">
-              <button type="submit" class="btn btn-danger">Submit</button>
+              <button type="submit" class="btn btn-danger">Enviar</button>
             </div>
             </form>
           </div>
     
           
     
-          <footer class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-            <div class="text-color-footer">   
-            <p>DTTA Records</p>
-            </div> 
-            </footer>
+          <footer>
+      
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom justify-content-center mr-3 ml-3 my-2">
+              <div><a class="navbar-brand text-danger " href="#">DTTA Records</a>
+              </div>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </nav>
+          
+          </footer>
     </body>
     </html>
 </body>

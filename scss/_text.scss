@@ -1,0 +1,34 @@
+
+.text {
+    color: $color-texto;
+    display: flex;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  div h2 {
+    margin-top: 20vh;
+    color: $color-texto;
+  }
+  
+  div p {
+    margin-top: 1vh;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: $color-texto;
+    padding: 5vh;
+  }
+
+  div h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  
+.titles {
+    color: $color-texto;
+  }

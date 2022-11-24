@@ -1,0 +1,37 @@
+@import "variables";
+@import "videos";
+@import "navbar";
+@import "text";
+@import "galeria";
+@import "images";
+@import "eventos";
+
+* {
+    font-family: 'Cooper Black', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+  background: linear-gradient(45deg, black, rgb(17, 16, 16), rgb(56, 54, 54), rgb(17, 16, 16), rgb(85, 82, 82), rgb(37, 36, 36), rgb(17, 16, 16), black, grey, rgb(197, 45, 40));
+  background-size: 100%;
+  min-height: 100vh;
+  animation: fondoanimado 20s infinite;
+  background-size: 400% 400%;
+}
+ 
+@keyframes fondoanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.btn {
+  margin-bottom: 5vh;
+}
+

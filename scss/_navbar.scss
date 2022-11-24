@@ -1,0 +1,20 @@
+ 
+.navbar {
+    background-color: rgb(92, 77, 77);
+  }
+  
+  .nav-link {
+    color: $color-texto !important;
+  }
+  
+  .nav-link:hover {
+    color: $color-logonaranja !important;
+  }
+
+  .nav-link:focus {
+    color: $color-logonaranja !important;
+}
+
+  .navbar-brand {
+    color: $color-logonaranja !important;
+  }

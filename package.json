@@ -1,25 +1,25 @@
 {
-  "name": "2-pre-entrega-gigliani---copia",
+  "name": "entrega-final",
   "version": "1.0.0",
   "description": "primer prueba github \r #\u0000 \u0000P\u0000r\u0000e\u0000-\u0000e\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u00002\u0000-\u0000G\u0000I\u0000G\u0000L\u0000I\u0000A\u0000N\u0000I\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/prueba.scss assets/style.css",
+    "build-css": "node-sass --include-path scss scss/style.scss assets/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gonzalogigliani/pre-entrega-2-Gigliani.git"
+    "url": "git+https://github.com/gonzalogigliani/3pre-entrega-Gonzalo-Gigliani.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gonzalogigliani/pre-entrega-2-Gigliani/issues"
+    "url": "https://github.com/gonzalogigliani/3pre-entrega-Gonzalo-Gigliani/issues"
   },
-  "homepage": "https://github.com/gonzalogigliani/pre-entrega-2-Gigliani#readme",
+  "homepage": "https://github.com/gonzalogigliani/3pre-entrega-Gonzalo-Gigliani#readme",
   "devDependencies": {
-    "node-sass": "^7.0.3",
+    "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   }
 }
